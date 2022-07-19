@@ -1,0 +1,9 @@
+[
+  {
+    "nombre": "Mermelada de Arandanos",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 1
+  }
+]
