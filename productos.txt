@@ -5,5 +5,54 @@
     "categoria": "Mermeladas",
     "descripcion": "100% Naturales",
     "id": 1
+  },
+  {
+    "nombre": "Mermelada de Ciruela",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 2
+  },
+  {
+    "nombre": "Mermelada de Tomate",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 3
+  },
+  {
+    "nombre": "Mermelada de Naranja",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 4
+  },
+  {
+    "nombre": "Mermelada de Kiwi",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 5
+  },
+  {
+    "nombre": "Mermelada de Frutilla",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 6
+  },
+  {
+    "nombre": "Mermelada de Durazno",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 7
+  },
+  {
+    "nombre": "Mermelada de Mandarina",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 8
   }
 ]
