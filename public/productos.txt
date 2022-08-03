@@ -1,0 +1,282 @@
+[
+  {
+    "nombre": "Mermelada de Arandanos",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 1
+  },
+  {
+    "nombre": "Mermelada de Tomate",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 3
+  },
+  {
+    "nombre": "Mermelada de Naranja",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 4
+  },
+  {
+    "nombre": "Mermelada de Kiwi",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 5
+  },
+  {
+    "nombre": "Mermelada de Frutilla",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 6
+  },
+  {
+    "nombre": "Mermelada de Durazno",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 7
+  },
+  {
+    "nombre": "Mermelada de Mandarina",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 8
+  },
+  {
+    "nombre": "Mermelada de kiwi",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 9
+  },
+  {
+    "nombre": "undefined de undefined",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 10
+  },
+  {
+    "nombre": "Mermelada de kiwi",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 11
+  },
+  {
+    "nombre": "Mermelada de Frambuesa",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 12
+  },
+  {
+    "nombre": "Mermelada de Frambuesa",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 13
+  },
+  {
+    "nombre": "Mermelada de Frambuesa",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 14
+  },
+  {
+    "nombre": "Mermelada de Banana",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 15
+  },
+  {
+    "nombre": "Mermelada de frutilla",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 16
+  },
+  {
+    "nombre": "Mermelada de zapallo",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 17
+  },
+  {
+    "nombre": "Mermelada de frutilla",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 18
+  },
+  {
+    "nombre": "Mermelada de mandarina",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 19
+  },
+  {
+    "nombre": "Mermelada de mandarina",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 20
+  },
+  {
+    "nombre": " de ",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 21
+  },
+  {
+    "nombre": "Mermelada de mandarina",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 22
+  },
+  {
+    "nombre": "Mermelada de mandarina",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 23
+  },
+  {
+    "nombre": "Mermelada de frutilla",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 24
+  },
+  {
+    "nombre": "Mermelada de Arandanos",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 25
+  },
+  {
+    "nombre": "Mermelada de Ciruela",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 26
+  },
+  {
+    "nombre": "Mermelada de Ciruela",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 27
+  },
+  {
+    "nombre": "undefined de Damasco",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 28
+  },
+  {
+    "nombre": "undefined de Damasco",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 29
+  },
+  {
+    "nombre": "undefined de Durazno",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 30
+  },
+  {
+    "nombre": "Mermelada de Durazno",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 31
+  },
+  {
+    "nombre": "Mermelada de Durazno",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 32
+  },
+  {
+    "nombre": "undefined de undefined",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 33
+  },
+  {
+    "nombre": "Mermelada de Durazno",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 34
+  },
+  {
+    "nombre": "Mermelada de mandarina",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 35
+  },
+  {
+    "nombre": "Mermelada de mandarina",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 36
+  },
+  {
+    "nombre": "undefined de undefined",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 37
+  },
+  {
+    "nombre": "undefined de undefined",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 38
+  },
+  {
+    "nombre": "undefined de undefined",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 39
+  },
+  {
+    "nombre": "undefined de undefined",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 40
+  },
+  {
+    "nombre": "Mermelada de mandarina",
+    "precio": 500,
+    "categoria": "Mermeladas",
+    "descripcion": "100% Naturales",
+    "id": 41
+  }
+]
