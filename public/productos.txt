@@ -1,282 +1,152 @@
 [
   {
-    "nombre": "Mermelada de Arandanos",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 1
+    "producto": "Mermelada",
+    "precio": "500",
+    "descripcion": "Durazno",
+    "id": 42
   },
   {
-    "nombre": "Mermelada de Tomate",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 3
+    "producto": "Mermelada",
+    "precio": "500",
+    "descripcion": "Frutilla",
+    "id": 43
   },
   {
-    "nombre": "Mermelada de Naranja",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 4
+    "producto": "Mermelada",
+    "precio": "500",
+    "descripcion": "Durazno",
+    "id": 44
   },
   {
-    "nombre": "Mermelada de Kiwi",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 5
+    "producto": "Mermelada",
+    "precio": "500",
+    "descripcion": "Durazno",
+    "id": 45
   },
   {
-    "nombre": "Mermelada de Frutilla",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 6
+    "producto": "Conservas",
+    "precio": "400",
+    "descripcion": "Ajies",
+    "id": 46
   },
   {
-    "nombre": "Mermelada de Durazno",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 7
+    "producto": "Mermelada",
+    "precio": "500",
+    "descripcion": "Frutilla",
+    "id": 47
   },
   {
-    "nombre": "Mermelada de Mandarina",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 8
+    "producto": "Mermelada",
+    "precio": "500",
+    "descripcion": "Frutilla",
+    "id": 48
   },
   {
-    "nombre": "Mermelada de kiwi",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 9
+    "producto": "Mermelada",
+    "precio": "500",
+    "descripcion": "Ajies",
+    "id": 49
   },
   {
-    "nombre": "undefined de undefined",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 10
+    "producto": "Mermelada",
+    "precio": "500",
+    "descripcion": "Ajies",
+    "id": 50
   },
   {
-    "nombre": "Mermelada de kiwi",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 11
+    "producto": "Mermelada",
+    "precio": "500",
+    "descripcion": "Ajies",
+    "id": 51
   },
   {
-    "nombre": "Mermelada de Frambuesa",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 12
+    "producto": "Mermelada",
+    "precio": "500",
+    "descripcion": "Ajies",
+    "id": 52
   },
   {
-    "nombre": "Mermelada de Frambuesa",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 13
+    "producto": "Mermelada",
+    "precio": "500",
+    "descripcion": "Ajies",
+    "id": 53
   },
   {
-    "nombre": "Mermelada de Frambuesa",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 14
+    "producto": "Mermelada",
+    "precio": "500",
+    "descripcion": "Ajies",
+    "id": 54
   },
   {
-    "nombre": "Mermelada de Banana",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 15
+    "producto": "Mermelada",
+    "precio": "400",
+    "descripcion": "Durazno",
+    "id": 55
   },
   {
-    "nombre": "Mermelada de frutilla",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 16
+    "producto": "Conservas",
+    "precio": "400",
+    "descripcion": "Ajies",
+    "id": 56
   },
   {
-    "nombre": "Mermelada de zapallo",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 17
+    "producto": "Conservas",
+    "precio": "400",
+    "descripcion": "Ajies",
+    "id": 57
   },
   {
-    "nombre": "Mermelada de frutilla",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 18
+    "producto": "Mermelada",
+    "precio": "400",
+    "descripcion": "Durazno",
+    "id": 58
   },
   {
-    "nombre": "Mermelada de mandarina",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 19
+    "producto": "Mermelada",
+    "precio": "400",
+    "descripcion": "Durazno",
+    "id": 59
   },
   {
-    "nombre": "Mermelada de mandarina",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 20
+    "producto": "Mermelada",
+    "precio": "400",
+    "descripcion": "Durazno",
+    "id": 60
   },
   {
-    "nombre": " de ",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 21
+    "producto": "Conservas",
+    "precio": "500",
+    "descripcion": "Ajies",
+    "id": 61
   },
   {
-    "nombre": "Mermelada de mandarina",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 22
+    "producto": "mermelada",
+    "precio": "500",
+    "descripcion": "Durazno",
+    "id": 62
   },
   {
-    "nombre": "Mermelada de mandarina",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 23
+    "producto": "mermelada",
+    "precio": "500",
+    "descripcion": "Durazno",
+    "id": 63
   },
   {
-    "nombre": "Mermelada de frutilla",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 24
+    "producto": "Conservas",
+    "precio": "400",
+    "descripcion": "Ajies",
+    "id": 64
   },
   {
-    "nombre": "Mermelada de Arandanos",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 25
+    "producto": "Conservas",
+    "precio": "500",
+    "descripcion": "Ajies",
+    "id": 65
   },
   {
-    "nombre": "Mermelada de Ciruela",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 26
-  },
-  {
-    "nombre": "Mermelada de Ciruela",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 27
-  },
-  {
-    "nombre": "undefined de Damasco",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 28
-  },
-  {
-    "nombre": "undefined de Damasco",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 29
-  },
-  {
-    "nombre": "undefined de Durazno",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 30
-  },
-  {
-    "nombre": "Mermelada de Durazno",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 31
-  },
-  {
-    "nombre": "Mermelada de Durazno",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 32
-  },
-  {
-    "nombre": "undefined de undefined",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 33
-  },
-  {
-    "nombre": "Mermelada de Durazno",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 34
-  },
-  {
-    "nombre": "Mermelada de mandarina",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 35
-  },
-  {
-    "nombre": "Mermelada de mandarina",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 36
-  },
-  {
-    "nombre": "undefined de undefined",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 37
-  },
-  {
-    "nombre": "undefined de undefined",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 38
-  },
-  {
-    "nombre": "undefined de undefined",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 39
-  },
-  {
-    "nombre": "undefined de undefined",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 40
-  },
-  {
-    "nombre": "Mermelada de mandarina",
-    "precio": 500,
-    "categoria": "Mermeladas",
-    "descripcion": "100% Naturales",
-    "id": 41
+    "producto": "Mermelada",
+    "precio": "400",
+    "descripcion": "Arandanos",
+    "id": 66
   }
 ]

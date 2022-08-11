@@ -29,7 +29,6 @@ class Contenedor{
             if(objIndex !== -1){
                 dataArchParse[objIndex] = obj
                 await fs.promises.writeFile(this.ruta, JSON.stringify(dataArchParse, null, 2))
-                // console.log( `El Archivo tiene el ID: ${dataArchParse[dataArchParse.length - 1 ].id + 1}`)
                 return { msg: 'Producto actualizado'}
             }else{
                 return {error: 'no existe el producto'}
@@ -62,11 +61,9 @@ class Contenedor{
             let dataArch = await fs.promises.readFile(this.ruta, 'utf8')
             let dataArchParse = JSON.parse(dataArch)
             if(dataArchParse.length){
-                console.log(dataArchParse)
                 return dataArchParse
             }else{
                 console.log('No hay productos')
-                
             }
         }catch(error){
             console.log(error)
