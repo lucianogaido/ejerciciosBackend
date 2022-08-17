@@ -148,5 +148,101 @@
     "precio": "400",
     "descripcion": "Arandanos",
     "id": 66
+  },
+  {
+    "producto": "Mermelada",
+    "precio": "400",
+    "descripcion": "Durazno",
+    "id": 67
+  },
+  {
+    "producto": "Mermelada",
+    "precio": "400",
+    "descripcion": "Durazno",
+    "id": 68
+  },
+  {
+    "producto": "Mermelada",
+    "precio": "500",
+    "descripcion": "Frutilla",
+    "id": 69
+  },
+  {
+    "producto": "Mermelada",
+    "precio": "400",
+    "descripcion": "Durazno",
+    "id": 70
+  },
+  {
+    "producto": "Conservas",
+    "precio": "2000",
+    "descripcion": "Ajies",
+    "id": 71
+  },
+  {
+    "nombre": "Mermelada",
+    "descripcion": "Durazno",
+    "precio": "500",
+    "id": 72
+  },
+  {
+    "nombre": "gorra",
+    "descripcion": "rosa",
+    "precio": "2000",
+    "id": 73
+  },
+  {
+    "nombre": "mermelada",
+    "descripcion": "kiwi",
+    "precio": "500",
+    "id": 74
+  },
+  {
+    "nombre": "mermelada",
+    "descripcion": "ciruela",
+    "precio": "500",
+    "id": 75
+  },
+  {
+    "nombre": "conserva",
+    "descripcion": "pikles",
+    "precio": "500",
+    "id": 76
+  },
+  {
+    "nombre": "mermelada",
+    "descripcion": "Frutilla",
+    "precio": "400",
+    "id": 77
+  },
+  {
+    "nombre": "gorra",
+    "descripcion": "rosa",
+    "precio": "2000",
+    "id": 78
+  },
+  {
+    "nombre": "mermelada",
+    "descripcion": "Frutilla",
+    "precio": "500",
+    "id": 79
+  },
+  {
+    "nombre": "mermelada",
+    "descripcion": "Durazno",
+    "precio": "400",
+    "id": 80
+  },
+  {
+    "nombre": "conserva",
+    "descripcion": "Ajies",
+    "precio": "500",
+    "id": 81
+  },
+  {
+    "nombre": "Blend de Té",
+    "descripcion": "Rosa Mosqueta",
+    "precio": "200",
+    "id": 82
   }
 ]

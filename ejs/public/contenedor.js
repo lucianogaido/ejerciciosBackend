@@ -98,7 +98,44 @@ class Contenedor{
 }
 }
 
+class Messenger{
+    constructor(ruta){
+        this.ruta= ruta
+    }
+    async save(obj){
+        try{
+            let dataArch = await fs.promises.readFile(this.ruta, 'utf8')
+            let dataArchParse = JSON.parse(dataArch)
+            if(dataArchParse.length){
+                await fs.promises.writeFile(this.ruta, JSON.stringify([...dataArchParse, {...obj, id: dataArchParse[dataArchParse.length - 1 ].id + 1}], null, 2))
+                console.log( `El Archivo tiene el ID: ${dataArchParse[dataArchParse.length - 1 ].id + 1}`)
+
+            }else{
+            await fs.promises.writeFile(this.ruta, JSON.stringify([{...obj, id: 1}], null, 2))
+            console.log( `El Archivo tiene el ID: ${dataArchParse.length + 1}`)
+            }
+            return dataArchParse.length + 1
+        } catch(error){
+            console.log(error)
+        }
+    }
+
+    async getAll (){
+        try{
+            let dataArch = await fs.promises.readFile(this.ruta, 'utf8')
+            let dataArchParse = JSON.parse(dataArch)
+            if(dataArchParse.length){
+                return dataArchParse
+            }else{
+                console.log('No hay productos')
+            }
+        }catch(error){
+            console.log(error)
+        }
+    }
 
 
+}
 
 module.exports= Contenedor;
+module.exports= Messenger;

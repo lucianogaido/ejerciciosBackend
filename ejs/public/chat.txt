@@ -1,0 +1,26 @@
+[
+  {
+    "email": "lucho.gaido@gmail.com",
+    "message": "Hola, que tal?",
+    "fechaActual": "17/8/2022, 20:48:39",
+    "id": 1
+  },
+  {
+    "email": "lucho.gaido@gmail.com",
+    "message": "Hola, que tal?",
+    "fechaActual": "17/8/2022, 20:49:04",
+    "id": 2
+  },
+  {
+    "email": "lucho@gmail.com",
+    "message": "Bien y vos?",
+    "fechaActual": "17/8/2022, 20:49:24",
+    "id": 3
+  },
+  {
+    "email": "gaido@gmail.com",
+    "message": "Bien, todo tranqui",
+    "fechaActual": "17/8/2022, 20:49:48",
+    "id": 4
+  }
+]
