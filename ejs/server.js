@@ -8,12 +8,14 @@ const contenedor = new Contenedor("./public/productos.txt");
 const Messenger = require("./public/contenedor");
 const messenger = new Messenger("./public/chat.txt");
 
+const carrito = new Contenedor("./public/carrito.txt");
+
 const app = express();
 
 const serverHttp = new HttpServer(app)
 const io = new IOServer(serverHttp)
 
-const PORT = 4000 || process.env.PORT;
+const PORT = 8080 || process.env.PORT;
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static('public'))
@@ -21,6 +23,7 @@ app.use(express.static('public'))
 // app.get('/', (req, res)=>{
 //     res.sendFile('/index.html', {root: __dirname})
 // })
+
 
 
 
@@ -33,12 +36,38 @@ let productos = []
 
 let mensajes = []
 
+let arrayCarrito = []
+
+// const agregarAlCarrito = async(id) =>{
+//     const arrayProductos = await contenedor.getAll();
+//     const productoAgregado = arrayProductos.find(producto => producto.id === id);
+//     console.log("productoAgregado", productoAgregado)
+//     await carrito.save(productoAgregado);
+// }
+const agregarAlCarrito = async(obj) =>{
+    await carrito.save(obj)
+}
 app.get('/', (req, res) => {
 
     res.render('pages/index', {
         productos: arrayProd,
         nav: "formulario"
     })
+})
+
+app.get('/productos/:id', async(req, res) => {
+    const id = req.params.id
+    const productoId = await contenedor.getById(Number(id))
+    if (productoId){
+    res.render('pages/index',{
+        productos: productoId,
+        nav: "formulario"
+        
+    })}else{
+        res.json({
+            error: 'Producto no encontrado'
+        })
+    }
 })
 
 app.post('/productos', async (req, res) => {
@@ -52,7 +81,23 @@ app.get('/productos', async (req, res) => {
     arrayProd = await contenedor.getAll();
     res.render('pages/productos', {
         productos: arrayProd,
-        nav: "productos"
+        nav: "productos",
+        agregarAlCarrito
+        // carrito
+    })
+})
+
+app.put('/:id', (req, res) =>{
+    const objetoProducto = req.body
+    const {id} = req.params
+     contenedor.updateById({id: Number(id), ...objetoProducto})
+})
+
+app.delete('/:id', (req, res) => {
+    const {id} = req.params
+    contenedor.deleteById(Number(id))
+    res.json({
+        msg:'producto borrado'
     })
 })
 
@@ -88,8 +133,60 @@ io.on('connection', async (socket) => {
     })
 })
 
+//**************************************    CARRITO  **********************************************************
+//   carrito.save({nombre: 'Mermelada', precio: 500, descripcion: 'Mandarina'})
 
-serverHttp.listen(4000, (err) => {
+
+
+app.get('/carrito', async (req, res) => {
+    arrayCarrito = await carrito.getAll();
+    res.render('pages/carrito', {
+        productos: arrayCarrito, 
+        nav: "productos"
+    })
+})
+
+app.get('/carrito/:id', async(req, res) => {
+    const id = req.params.id
+    const productoId = await carrito.getById(Number(id))
+    if (productoId){
+    res.render('pages/carrito',{
+        productos: productoId,
+        nav: "productos"
+        
+    })}else{
+        res.render({
+            productos: 'Producto no encontrado'
+        })
+    }
+})
+
+app.post('/carrito', async (req, res) => {
+    const producto = await carrito.save({nombre: 'Mermelada', descripcion: 'Mandarina', precio: 500});
+    console.log("req:", producto)
+    res.render('pages/carrito', {
+        productos: producto,
+        nav: "productos"
+    })
+})
+
+
+app.put('/carrito/:id', (req, res) =>{
+    const objetoProducto = req.body
+    const {id} = req.params
+     contenedor.updateById({id: Number(id), ...objetoProducto})
+})
+
+app.delete('/carrito/:id', (req, res) => {
+    const {id} = req.params
+    contenedor.deleteById(Number(id))
+    res.json({
+        msg:'producto borrado'
+    })
+})
+
+
+serverHttp.listen(PORT, (err) => {
     if (err) throw new Error('error')
-    console.log('server en el ' + PORT)
+    console.log(`server en el  ${PORT}`)
 })

@@ -27,7 +27,7 @@
         <%- include('../partials/nav.ejs') %>
             <br><br><br>
             <main class="container">
-                <h1 style=<%=estilo%> >Listado de Productos</h1>
+                <h1 style=<%=estilo%> >Carrito</h1>
                 <br><br><br>
                 <% if(productos.length> 0) { %>
                     <ul>
@@ -47,7 +47,6 @@
                                 <div class="cart-item col" xs={12} md={2}>
                                     <p><strong>$<%= prod.precio %></strong></p>
                                 </div>
-                                <!-- <button onclick=  agregarAlCarrito(prod) %> type="button" class="btn btn-primary">Agregar al carrito</button> -->
                             </div>
                             <% }) %>
                     </ul>

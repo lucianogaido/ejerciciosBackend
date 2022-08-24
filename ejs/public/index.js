@@ -1,5 +1,7 @@
 console.log("hola mundo")
 
+
+
 const render = (productos) =>{
     let listado = document.querySelector('#listado')
     console.log(listado)
@@ -18,6 +20,22 @@ const render = (productos) =>{
     })
     listado.innerHTML = html.join(' ')
 }
+
+// const agregarAlCarrito = async (obj) =>{
+//             let dataArch = await fs.promises.readFile("/carrito.txt", 'utf8')
+//             let dataArchParse = JSON.parse(dataArch)
+//             if(dataArchParse.length){
+//                 await fs.promises.writeFile("/carrito.txt", JSON.stringify([...dataArchParse, {...obj, id: dataArchParse[dataArchParse.length - 1 ].id + 1}], null, 2))
+//                 console.log( `El Archivo tiene el ID: ${dataArchParse[dataArchParse.length - 1 ].id + 1}`)
+
+
+//             }else{
+//             await fs.promises.writeFile("/carrito.txt", JSON.stringify([{...obj, id: 1}], null, 2))
+//             console.log( `El Archivo tiene el ID: ${dataArchParse.length + 1}`)
+//             }
+            
+//         }
+
 
 const chatFunction = (mensajes) =>{
     let conversacion = document.querySelector('#conversacion')

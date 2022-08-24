@@ -1,0 +1,11 @@
+POST http://localhost:8080/carrito HTTP/1.1
+content-type: application/json
+
+{
+    "productos"{
+        "nombre": "Mermelada",
+        "descripcion": "Tomate",
+        "precio": "500"
+
+    }
+}

@@ -244,5 +244,17 @@
     "descripcion": "Rosa Mosqueta",
     "precio": "200",
     "id": 82
+  },
+  {
+    "nombre": "mermelada",
+    "precio": "500",
+    "descripcion": "Durazno",
+    "id": 83
+  },
+  {
+    "nombre": "Conserva",
+    "descripcion": "Berenjenas",
+    "precio": "600",
+    "id": 84
   }
 ]

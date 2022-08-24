@@ -1,0 +1,134 @@
+[
+  {
+    "nombre": "Mermelada",
+    "precio": 500,
+    "descripcion": "Mandarina",
+    "id": 1
+  },
+  {
+    "nombre": "Mermelada",
+    "precio": 500,
+    "descripcion": "Mandarina",
+    "id": 2
+  },
+  {
+    "id": 3
+  },
+  {
+    "id": 4
+  },
+  {
+    "id": 5
+  },
+  {
+    "id": 6
+  },
+  {
+    "nombre": "Blend de Té",
+    "descripcion": "Rosa Mosqueta",
+    "precio": "200",
+    "id": 7
+  },
+  {
+    "nombre": "mermelada",
+    "precio": "500",
+    "descripcion": "Durazno",
+    "id": 8
+  },
+  {
+    "nombre": "Blend de Té",
+    "descripcion": "Rosa Mosqueta",
+    "precio": "200",
+    "id": 9
+  },
+  {
+    "nombre": "Blend de Té",
+    "descripcion": "Rosa Mosqueta",
+    "precio": "200",
+    "id": 10
+  },
+  {
+    "nombre": "Conserva",
+    "descripcion": "Berenjenas",
+    "precio": "600",
+    "id": 11
+  },
+  {
+    "nombre": "Conserva",
+    "descripcion": "Berenjenas",
+    "precio": "600",
+    "id": 12
+  },
+  {
+    "nombre": "Conserva",
+    "descripcion": "Berenjenas",
+    "precio": "600",
+    "id": 13
+  },
+  {
+    "nombre": "mermelada",
+    "precio": "500",
+    "descripcion": "Durazno",
+    "id": 14
+  },
+  {
+    "nombre": "mermelada",
+    "precio": "500",
+    "descripcion": "Durazno",
+    "id": 15
+  },
+  {
+    "nombre": "Blend de Té",
+    "descripcion": "Rosa Mosqueta",
+    "precio": "200",
+    "id": 16
+  },
+  {
+    "nombre": "mermelada",
+    "precio": "500",
+    "descripcion": "Durazno",
+    "id": 17
+  },
+  {
+    "nombre": "Conserva",
+    "descripcion": "Berenjenas",
+    "precio": "600",
+    "id": 18
+  },
+  {
+    "nombre": "Conserva",
+    "descripcion": "Berenjenas",
+    "precio": "600",
+    "id": 19
+  },
+  {
+    "nombre": "mermelada",
+    "precio": "500",
+    "descripcion": "Durazno",
+    "id": 20
+  },
+  {
+    "nombre": "Conserva",
+    "descripcion": "Berenjenas",
+    "precio": "600",
+    "id": 21
+  },
+  {
+    "nombre": "Mermelada",
+    "descripcion": "Mandarina",
+    "precio": 500,
+    "id": 22
+  },
+  {
+    "nombre": "Conserva",
+    "descripcion": "Berenjenas",
+    "precio": "600",
+    "id": 23
+  },
+  {
+    "nombre": "Conserva",
+    "descripcion": "Berenjenas",
+    "precio": "600",
+    "id": 24
+  }
+]
