@@ -2,13 +2,23 @@ const express = require("express");
 const { Server: HttpServer } = require('http')
 const { Server: IOServer } = require('socket.io')
 
-const Contenedor = require("./public/contenedor");
-const contenedor = new Contenedor("./public/productos.txt");
+// const Contenedor = require("./src/contenedor");
+// const contenedor = new Contenedor("./txt/productos.txt");
 
-const Messenger = require("./public/contenedor");
-const messenger = new Messenger("./public/chat.txt");
+// const Messenger = require("./src/contenedor");
+// const messenger = new Messenger("./txt/chat.txt");
 
-const carrito = new Contenedor("./public/carrito.txt");
+        // SQL 
+import options from './mariaDB/conexionDB.js'
+import { options as SQLiteOptions} from './sqlite/conexionDB.js' 
+const Contenedor = require("./src/contenedorSQL");
+
+const Messenger = require("./src/contenedorSQL");
+
+const contenedor = new Contenedor(options, "productos");
+const messenger = new Messenger(SQLiteOptions,"mensajes");
+
+const carrito = new Contenedor("./txt/carrito.txt");
 
 const app = express();
 
