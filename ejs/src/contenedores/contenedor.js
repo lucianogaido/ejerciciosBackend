@@ -1,8 +1,8 @@
 const fs = require('fs');
-
+const config = require('../../config.js')
 class Contenedor{
     constructor(ruta){
-        this.ruta= ruta
+        this.ruta= `${config.fileSystem.path}/${ruta}`;
     }
     async save(obj){
         try{

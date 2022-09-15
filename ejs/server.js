@@ -20,43 +20,25 @@ const messenger = new Messenger(SQLiteOptions,"mensajes");
 
 const carrito = new Contenedor("./txt/carrito.txt");
 
-const app = express();
-
 const serverHttp = new HttpServer(app)
 const io = new IOServer(serverHttp)
 
 const PORT = 8080 || process.env.PORT;
-app.use(express.urlencoded({ extended: true }));
 
-app.use(express.static('public'))
+const routerCarrito = require('./src/routes/carrito.route.js')
+const routerProductos = require('./src/routes/productos.route.js')
 
-// app.get('/', (req, res)=>{
-//     res.sendFile('/index.html', {root: __dirname})
-// })
-
-
+const app = express()
 
 
 app.set('view engine', 'ejs');
 app.set('views', './views');
 
-let arrayProd = []
-
-let productos = []
-
-let mensajes = []
-
-let arrayCarrito = []
-
-// const agregarAlCarrito = async(id) =>{
-//     const arrayProductos = await contenedor.getAll();
-//     const productoAgregado = arrayProductos.find(producto => producto.id === id);
-//     console.log("productoAgregado", productoAgregado)
-//     await carrito.save(productoAgregado);
-// }
 const agregarAlCarrito = async(obj) =>{
     await carrito.save(obj)
 }
+
+//........................PRODUCTOS CONTROLLERS............//
 app.get('/', (req, res) => {
 
     res.render('pages/index', {
@@ -65,51 +47,6 @@ app.get('/', (req, res) => {
     })
 })
 
-app.get('/productos/:id', async(req, res) => {
-    const id = req.params.id
-    const productoId = await contenedor.getById(Number(id))
-    if (productoId){
-    res.render('pages/index',{
-        productos: productoId,
-        nav: "formulario"
-        
-    })}else{
-        res.json({
-            error: 'Producto no encontrado'
-        })
-    }
-})
-
-app.post('/productos', async (req, res) => {
-    const producto = await contenedor.save(req.body);
-    res.render('pages/index', {
-        productos: producto,
-        nav: "formulario"
-    })
-})
-app.get('/productos', async (req, res) => {
-    arrayProd = await contenedor.getAll();
-    res.render('pages/productos', {
-        productos: arrayProd,
-        nav: "productos",
-        agregarAlCarrito
-        // carrito
-    })
-})
-
-app.put('/:id', (req, res) =>{
-    const objetoProducto = req.body
-    const {id} = req.params
-     contenedor.updateById({id: Number(id), ...objetoProducto})
-})
-
-app.delete('/:id', (req, res) => {
-    const {id} = req.params
-    contenedor.deleteById(Number(id))
-    res.json({
-        msg:'producto borrado'
-    })
-})
 
 io.on('connection', async (socket) => {
     console.log('a user connected')
@@ -142,59 +79,15 @@ io.on('connection', async (socket) => {
         io.sockets.emit('chat-server', chat)
     })
 })
-
-//**************************************    CARRITO  **********************************************************
-//   carrito.save({nombre: 'Mermelada', precio: 500, descripcion: 'Mandarina'})
+//**************************************    server modularizado  **********************************************************
 
 
+app.use(express.static('public'))
+app.use(expres.json())
+app.use(express.urlencoded({extended: true}))
 
-app.get('/carrito', async (req, res) => {
-    arrayCarrito = await carrito.getAll();
-    res.render('pages/carrito', {
-        productos: arrayCarrito, 
-        nav: "productos"
-    })
-})
-
-app.get('/carrito/:id', async(req, res) => {
-    const id = req.params.id
-    const productoId = await carrito.getById(Number(id))
-    if (productoId){
-    res.render('pages/carrito',{
-        productos: productoId,
-        nav: "productos"
-        
-    })}else{
-        res.render({
-            productos: 'Producto no encontrado'
-        })
-    }
-})
-
-app.post('/carrito', async (req, res) => {
-    const producto = await carrito.save({nombre: 'Mermelada', descripcion: 'Mandarina', precio: 500});
-    console.log("req:", producto)
-    res.render('pages/carrito', {
-        productos: producto,
-        nav: "productos"
-    })
-})
-
-
-app.put('/carrito/:id', (req, res) =>{
-    const objetoProducto = req.body
-    const {id} = req.params
-     contenedor.updateById({id: Number(id), ...objetoProducto})
-})
-
-app.delete('/carrito/:id', (req, res) => {
-    const {id} = req.params
-    contenedor.deleteById(Number(id))
-    res.json({
-        msg:'producto borrado'
-    })
-})
-
+app.use('/api/productos', routerProductos)
+app.use('/api/carrito', routerCarrito)
 
 serverHttp.listen(PORT, (err) => {
     if (err) throw new Error('error')
