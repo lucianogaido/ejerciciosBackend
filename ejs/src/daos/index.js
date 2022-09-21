@@ -1,7 +1,7 @@
 let productosDao
 let carritosDao
 
-switch (preocess.env.PERS){
+switch (process.env.PERS){
     case 'txt':
         const {default: ProductosDaoArchivo}= await import('./productos/ProductosDaoArchivo.js')
         const {default: CarritosDaoArchivo}= await import('./carritos/CarritosDaoArchivo.js')
